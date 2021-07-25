@@ -49,3 +49,7 @@ h1 {
   background-image: url(./assets/images/backgrounds/c_image.jpg);
   height: 70vh;
 }
+
+.footer {
+  display: flex;
+}
