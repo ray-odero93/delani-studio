@@ -44,6 +44,7 @@ h1 {
 }
 
 .contact {
+  color: white;
   background-image: url(./assets/images/backgrounds/c_image.jpg);
   height: 70vh;
 }
