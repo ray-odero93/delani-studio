@@ -1,4 +1,5 @@
 .intro {
+  color: white;
   background-image: url(./assets/images/backgrounds/h_img.jpg);
   height: 100vh;
   display: flex;
