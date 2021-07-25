@@ -20,7 +20,7 @@
   background-image: url(./assets/images/backgrounds/s_image.jpg);
   height: 100vh;
   background-repeat: no-repeat;
-  padding-top: 20vh;
+  padding-top: 15vh;
 }
 
 .portfolio {
@@ -33,5 +33,9 @@
 
 .portfolio, h1 {
   text-align: center;
+}
+
+.what-we-do {
+  display: flex;
 }
 
