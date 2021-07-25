@@ -43,6 +43,18 @@ h1 {
   margin-bottom: 10vh;
 }
 
+.design {
+  text-align: center;
+}
+
+.development {
+
+}
+
+.product {
+  
+}
+
 .contact {
   color: white;
   padding-top: 15vh;
@@ -58,6 +70,7 @@ h1 {
   padding-top: 10vh;
 }
 
-.footer, p {
+.footer,
+p {
   text-align: center;
 }
