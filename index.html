@@ -11,130 +11,152 @@
     <script src="./script.js" defer></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <!-- Intro Section/Logo Section -->
 
-      <div class="intro">
-        <div class="logo">
-          <img src="./assets/images/logo/logo.png" />
+    <div class="intro">
+      <div class="logo">
+        <img src="./assets/images/logo/logo.png" />
+      </div>
+      <h1>WELCOME<br />TO DELANI STUDIO</h1>
+      <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+      <div class="mouse">
+        <img src="./assets/images/mouse_click.png">
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div class="about">
+      <h1>ABOUT US</h1>
+      <p>
+        When you work with us, you are part of a team of committed colaborators.
+        All aspects of our software development process are intergrated,
+        interactive and agile.<br /><br />Our approach unifies design,
+        development and product management to create exceptional products.<br /><br />We
+        start project by understanding your business goals, the user's needs and
+        product requirements.<br /><br />Then we help translate them into
+        effective and elegant solutions.
+      </p>
+    </div>
+
+    <!-- Services Section -->
+
+    <div class="services">
+      <h1>SERVICES</h1>
+      <p>
+        Before we sign a contract or write a line of code our team will spend
+        the necessary time needed to understand your product vision.<br /><br />The
+        outcome of this scoping session is proposal or high-level statement of
+        work.<br /><br />
+        Based on your requirements, we can provide a complete offering or just
+        the pieces you need.
+      </p>
+    </div>
+
+    <!-- What We Do Section -->
+
+    <div class="what-we-do">
+      <h1>WHAT WE DO</h1>
+      <div class="specialities">
+        <div class="design">
+          <img src="./assets/images/services_icon/design_icon.png" />
+          <h6>DESIGN</h6>
         </div>
-        <h1>WELCOME<br />TO DELANI STUDIO</h1>
-        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        <div class="development">
+          <img src="./assets/images/services_icon/dev_icon.png" />
+          <h6>DEVELOPMENT</h6>
+        </div>
+        <div class="product">
+          <img src="./assets/images/services_icon/product_icon.png" />
+          <h6>PRODUCT DEVELOPMENT</h6>
+        </div>
       </div>
+    </div>
 
-      <!-- About Section -->
+    <!-- Portfolio Section -->
 
-      <div class="about">
-        <h1>ABOUT US</h1>
-        <p>
-          When you work with us, you are part of a team of committed
-          colaborators. All aspects of our software development process are
-          intergrated, interactive and agile.<br /><br />Our approach unifies
-          design, development and product management to create exceptional
-          products.<br /><br />We start project by understanding your business
-          goals, the user's needs and product requirements.<br /><br />Then we
-          help translate them into effective and elegant solutions.
-        </p>
+    <h1>PORTFOLIO</h1>
+
+    <div class="portfolio">
+      <div class="first">
+        <img src="./assets/images/portfolio/work4.jpg" />
       </div>
-
-      <!-- Services Section -->
-
-      <div class="services">
-        <h1>SERVICES</h1>
-        <p>
-          Before we sign a contract or write a line of code our team will spend
-          the necessary time needed to understand your product vision.<br /><br />The
-          outcome of this scoping session is proposal or high-level statement of
-          work.<br /><br />
-          Based on your requirements, we can provide a complete offering or just
-          the pieces you need.
-        </p>
+      <div class="second">
+        <img src="./assets/images/portfolio/work3.jpg" />
       </div>
+      <div class="third">
+        <img src="./assets/images/portfolio/work2.jpg" />
+      </div>
+      <div class="fourth">
+        <img src="./assets/images/portfolio/work1.jpg" />
+      </div>
+      <div class="fifth">
+        <img src="./assets/images/portfolio/work5.jpg" />
+      </div>
+      <div class="sixth">
+        <img src="./assets/images/portfolio/work6.jpg" />
+      </div>
+      <div class="seventh">
+        <img src="./assets/images/portfolio/work7.jpg" />
+      </div>
+      <div class="eighth">
+        <img src="./assets/images/portfolio/work8.jpg" />
+      </div>
+    </div>
 
-      <!-- What We Do Section -->
+    <!-- Contact Section -->
 
-      <div class="what-we-do">
-        <h1>WHAT WE DO</h1>
-        <div class="specialities">
-          <div class="design">
-            <img src="./assets/images/services_icon/design_icon.png" />
-            <h6>DESIGN</h6>
+    <div class="contact">
+      <h1>CONTACT US</h1>
+      <form class="form-group">
+        <div class="row">
+          <div class="col">
+            <input
+              class="form-control-sm"
+              type="text"
+              id="name"
+              name="userName"
+              placeholder="Name..."
+              required
+            />
           </div>
-          <div class="development">
-            <img src="./assets/images/services_icon/dev_icon.png" />
-            <h6>DEVELOPMENT</h6>
+          <div class="col">
+            <input
+              class="form-control-sm"
+              type="email"
+              id="email"
+              name="userEmail"
+              placeholder="E-mail..."
+              required
+            />
           </div>
-          <div class="product">
-            <img src="./assets/images/services_icon/product_icon.png" />
-            <h6>PRODUCT DEVELOPMENT</h6>
-          </div>
         </div>
+        <textarea
+          class="form-control"
+          id="commentBox"
+          rows="8"
+          placeholder="Your message here..."
+        ></textarea>
+      </form>
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="footer">
+      <div class="social-icons">
+        <img src="./assets/images/social_icons/twitter.png" />
+        <img src="./assets/images/social_icons/dribble.png" />
+        <img src="./assets/images/social_icons/facebook.png" />
+        <img src="./assets/images/social_icons/g_plus.png" />
+        <img src="./assets/images/social_icons/skype.png" />
+        <img src="./assets/images/social_icons/stumble_upon.png" />
+        <img src="./assets/images/social_icons/behance.png" />
+        <img src="./assets/images/social_icons/pinterest.png" />
+        <img src="./assets/images/social_icons/flickr.png" />
       </div>
-
-      <!-- Portfolio Section -->
-
-      <h1>PORTFOLIO</h1>
-
-      <div class="portfolio">
-        <div class="first">
-          <img src="./assets/images/portfolio/work4.jpg" />
-        </div>
-        <div class="second">
-          <img src="./assets/images/portfolio/work3.jpg" />
-        </div>
-        <div class="third">
-          <img src="./assets/images/portfolio/work2.jpg" />
-        </div>
-        <div class="fourth">
-          <img src="./assets/images/portfolio/work1.jpg" />
-        </div>
-        <div class="fifth">
-          <img src="./assets/images/portfolio/work5.jpg" />
-        </div>
-        <div class="sixth">
-          <img src="./assets/images/portfolio/work6.jpg" />
-        </div>
-        <div class="seventh">
-          <img src="./assets/images/portfolio/work7.jpg" />
-        </div>
-        <div class="eighth">
-          <img src="./assets/images/portfolio/work8.jpg" />
-        </div>
-      </div>
-
-      <!-- Contact Section -->
-
-      <div class="contact">
-        <h1>CONTACT US</h1>
-        <form>
-          <input type="text" id="name" name="userName" value="Name..." />
-          <input type="email" id="email" name="userEmail" value="E-mail..." />
-          <input
-            type="text"
-            id="commentBox"
-            name="userComment"
-            value="Your message here..."
-          />
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
-
-      <!-- Footer Section -->
-
-      <div class="footer">
-        <div class="social-icons">
-          <img src="./assets/images/social_icons/twitter.png" />
-          <img src="./assets/images/social_icons/dribble.png" />
-          <img src="./assets/images/social_icons/facebook.png" />
-          <img src="./assets/images/social_icons/g_plus.png" />
-          <img src="./assets/images/social_icons/skype.png" />
-          <img src="./assets/images/social_icons/stumble_upon.png" />
-          <img src="./assets/images/social_icons/behance.png" />
-          <img src="./assets/images/social_icons/pinterest.png" />
-          <img src="./assets/images/social_icons/flickr.png" />
-        </div>
-        <p>DELANI STUDIO.<br />2021</p>
-      </div>
+      <p>DELANI STUDIO.<br />2021</p>
+    </div>
     </div>
   </body>
 </html>
