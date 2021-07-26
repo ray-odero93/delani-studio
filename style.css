@@ -1,0 +1,112 @@
+.intro {
+  color: white;
+  text-align: center;
+  background-image: url(./assets/images/backgrounds/h_img.jpg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 23%;
+  position: relative;
+}
+
+.mouse {
+  position: absolute;
+  bottom: 10px;
+  left: 100vh;
+}
+
+.about {
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.services {
+  color: white;
+  text-align: center;
+  background-image: url(./assets/images/backgrounds/s_image.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding-top: 20vh;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 6vh;
+}
+
+.portfolio,
+h1 {
+  text-align: center;
+}
+
+.what-we-do {
+  margin-top: -15vh;
+  margin-bottom: 15vh;
+  align-items: center;
+}
+
+.specialities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  padding-top: 5vh;
+}
+
+.design,
+.development,
+.product {
+  text-align: center;
+}
+
+.contact {
+  color: white;
+  padding-top: 15vh;
+  background-image: url(./assets/images/backgrounds/c_image.jpg);
+  height: 70vh;
+  position: relative;
+}
+
+input [type=text]{
+  border: 2px solid white;
+}
+
+#name {
+  position: absolute;
+  left: 70vh;
+  width: 300px;
+  opacity: 0.4;
+}
+
+#email {
+  position: absolute;
+  right: 53vh;
+  width: 300px;
+  opacity: 0.4;
+}
+
+#commentBox {
+  position: absolute;
+  bottom: 100px;
+  left: 75vh;
+  width: 35%;
+  opacity: 0.4;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.footer,
+p {
+  text-align: center;
+}
