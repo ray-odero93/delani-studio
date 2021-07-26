@@ -65,8 +65,30 @@ h1 {
   position: relative;
 }
 
+input [type=text]{
+  border: 2px solid white;
+}
+
+#name {
+  position: absolute;
+  left: 70vh;
+  width: 300px;
+  opacity: 0.4;
+}
+
+#email {
+  position: absolute;
+  right: 53vh;
+  width: 300px;
+  opacity: 0.4;
+}
+
 #commentBox {
-  width: 50%;
+  position: absolute;
+  bottom: 100px;
+  left: 75vh;
+  width: 35%;
+  opacity: 0.4;
 }
 
 .footer {
