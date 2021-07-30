@@ -110,3 +110,20 @@ $(document).ready(function () {
       $("#restaurant").hide();
     });
 });
+
+
+
+$(document).ready(function () {
+  $("form#contactForm").submit(function (event) {
+    var name = $("input#userName").val();
+    var email = $("input#userEmail").val();
+    var message = $("textarea#commentBox").val();
+
+    if ($("input#userName").val() && $("input#userEmail").val()) {
+      alert(name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and e-mail!");
+    }
+  });
+});
